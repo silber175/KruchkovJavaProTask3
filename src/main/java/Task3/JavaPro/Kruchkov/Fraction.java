@@ -11,7 +11,6 @@ public class Fraction {
         this.num = num;
         this.denum = denum;
     }
-
    
     public void setNum(int num)    {
         this.num = num;
@@ -30,7 +29,6 @@ public class Fraction {
         count++;
         return (double) this.num/this.denum;
     }
-
    
     public double reverseValue()    {
         //   System.out.println("выполнение расчета значения");

@@ -11,6 +11,7 @@ class Task implements Runnable {
         this.denum = denum;
         busy = false;
     }
+
     public void run() {
         System.out.println("Task № "+taskNumber+"  Дробь "+this.num+"/"+this.denum+" = "+
                 (new Fraction(this.num,this.denum)).doubleValue() );
